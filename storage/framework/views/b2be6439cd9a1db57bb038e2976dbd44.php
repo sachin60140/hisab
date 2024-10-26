@@ -4,13 +4,10 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="<?php echo e(url('admin/dashboard')); ?>" class="logo d-flex align-items-center">
         <img src="<?php echo e(url('assets/img/logo.png')); ?>" alt="">
-        <span class="d-none d-lg-block">Ac Info</span>
+        <span class="d-none d-lg-block">Hisab Car 4 Sales</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
-
-   
-
     <nav class="header-nav ms-auto">
       <ul class="d-flex align-items-center">
 
@@ -19,11 +16,6 @@
             <i class="bi bi-search"></i>
           </a>
         </li><!-- End Search Icon-->
-
-        
-
-       
-
         <li class="nav-item dropdown pe-3">
 
           <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
@@ -39,24 +31,18 @@
             <li>
               <hr class="dropdown-divider">
             </li>
-
-            
             <li>
               <hr class="dropdown-divider">
             </li>
-
             <li>
               <a class="dropdown-item d-flex align-items-center" href="logout">
                 <i class="bi bi-box-arrow-right"></i>
                 <span>Sign Out</span>
               </a>
             </li>
-
           </ul><!-- End Profile Dropdown Items -->
         </li><!-- End Profile Nav -->
-
       </ul>
     </nav><!-- End Icons Navigation -->
-
   </header><!-- End Header -->
 <?php /**PATH C:\xampp\htdocs\carac\resources\views/admin/layouts/_header.blade.php ENDPATH**/ ?>
