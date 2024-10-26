@@ -22,7 +22,7 @@
           <span>View Client</span>
         </a>
       </li>
-      <li class="nav-item">
+      {{-- <li class="nav-item">
         <a class="nav-link collapsed" href="{{route('receipt')}}">
           <i class="bi bi-person"></i>
           <span>Reciept</span>
@@ -33,7 +33,7 @@
           <i class="bi bi-person"></i>
           <span>Payment</span>
         </a>
-      </li>
+      </li> --}}
       <li class="nav-item">
         <a class="nav-link collapsed" href="{{route('paymenttxn')}}">
           <i class="bi bi-person"></i>
